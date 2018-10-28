@@ -1,0 +1,90 @@
+﻿print "AutoPilot engage".
+wait 5.0.
+lock steering to heading(113,90).
+lock throttle to 1.
+STAGE.
+stage.
+wait 5.0.
+lock steering to heading(113,89.7).
+print "5sec".
+wait 1.0.
+unlock steering.
+lock steering to heading(113,89.4).
+wait 1.0.
+lock steering to heading(113,89.1).
+wait 1.0.
+lock steering to heading(113,88.8).
+wait 1.0.
+lock steering to heading(113,88.5).
+wait 1.0.
+lock steering to heading(113,88.2).
+wait 1.0.
+lock steering to heading(113,87.9).
+wait 1.0.
+lock steering to heading(113,87.6).
+wait 1.0.
+lock steering to heading(113,87.3).
+wait 1.0.
+lock steering to heading(113,87.0).
+wait 1.0.
+print "T+15".
+wait 25.0.
+print "T+40".
+lock steering to heading(113,87.0).
+wait 2.0.
+lock steering to heading(113,86.7).
+wait 2.0.
+lock steering to heading(113,86.4).
+wait 2.0.
+lock steering to heading(113,86.1).
+wait 2.0.
+lock steering to heading(113,85.8).
+wait 2.0.
+lock steering to heading(113,85.5).
+wait 2.0.
+lock steering to heading(113,85.2).
+wait 2.0.
+lock steering to heading(113,84.9).
+wait 2.0.
+lock steering to heading(113,84.6).
+wait 2.0.
+lock steering to heading(113,84.3).
+wait 2.0.
+wait 2.0.
+print "T+60".
+lock steering to heading(113,84.0).
+wait 20.0.
+print "T+80".
+lock steering to heading(113,84.5).
+wait 5.0.
+lock steering to heading(113,85.0).
+wait 5.0.
+print "T+90".
+wait 1.0.
+lock steering to heading(113,85.25).
+wait 1.0.
+lock steering to heading(113,85.5).
+wait 1.0.
+lock steering to heading(113,85.75).
+wait 1.0.
+lock steering to heading(113,86.0).
+wait 1.0.
+lock steering to heading(113,86.25).
+wait 1.0.
+lock steering to heading(113,86.5).
+wait 1.0.
+lock steering to heading(113,86.75).
+wait 1.0.
+lock steering to heading(113,87.0).
+wait 1.0.
+lock steering to heading(113,87.25).
+wait 1.0.
+lock steering to heading(113,87.5).
+print "T+100 stabilize".
+print "AutoPilot disngage".
+unlock steering.
+wait 20.0.
+wait 40.0.
+
+  print "apoapsis is " + round(apoapsis,0).
+wait 0.
